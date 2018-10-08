@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    max-width: 480px;
+    background-color: grey;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    border: 1px solid turquoise;
+}
+
+.nav_list li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1em;
+    margin: 10px;
+    border: 1px solid yellow;
+}
+
+.nav_list a {
+    color: white;
+    text-decoration: none;
+    height: 20px;
+    border: 1px solid red;
+    padding: 10px;
+}
+.personal {
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.personal_header {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid pink;
+    text-align: left;
+}
+
+.images_list {
+    width: 100px;
+    margin-right: 10px;
+    border: 1px solid green;
+}
+
+.personal_list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    text-align: left;
+    border: 1px solid purple;
+    list-style-type: none;
+}
