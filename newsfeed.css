@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'K2d', sans-serif;
+  margin: auto;
+  text-align: center;
+  max-width: 480px;
+  background-color: grey;
+  list-style-type: none;
+}
+.nav {
+  background-color: black;
+  color: white;
+  border: 1px solid turquoise;
+}
+
+.nav_list li {
+  display: inline-block;
+  font-size: 1em;
+  margin: 10px;
+  border: 1px solid yellow;
+}
+
+.nav_list a {
+  color: white;
+  text-decoration: none;
+  height: 20px;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.ah-newsFeed {
+  list-style-type: none;
+}
