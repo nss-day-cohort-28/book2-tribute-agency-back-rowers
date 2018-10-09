@@ -1,16 +1,50 @@
-* {
-  margin: 0;
-  padding: 0;
+.header2 {
+  position: relative;
+  padding: 100px 0;
+  font-style: italic;
+  font-size: 44px;
+  color: white;
+  margin-top: -350px;
+  margin-bottom: -130px;
 }
-
-body {
-  margin: auto;
-  text-align: center;
-  max-width: 480px;
-  background-color: grey;
+.letter1S {
+  text-align:left;
+  margin-left:30px;
+  margin-top:-40px;
 }
-
-header {
+.letter2U{
+  text-align:left;
+  margin-left:80px;
+  margin-top:-30px;
+}
+.letter3M {
+  text-align:left;
+  margin-left:130px;
+  margin-top:-30px;
+}
+.letter4M {
+  text-align:center;
+  margin-right:40px;
+  margin-top:-30px;
+}
+.letter5A {
+  text-align:center;
+  margin-left:70px;
+  margin-right:;
+  margin-top:-30px;
+}
+.letter6R {
+  text-align:right;
+  margin-right:110px;
+  margin-top:-30px;
+}
+.letter7Y {
+  text-align:right;
+  margin-right:50px;
+  margin-bottom:-120px;
+  margin-top:-20px;
+}
+.header1 {
   position: relative;
   height: 300px;
   background-image: linear-gradient(black, gray);
@@ -20,20 +54,101 @@ header {
     100% 100%,
     0 calc(100% - 5vw)
   );
-  margin-bottom: -12.5vw;
+  margin-bottom: -13vw;
 }
 
-h1 {
-  margin: 0;
+
+.img1 {
+  width:100%;
+  
+  height: auto;
+  margin-bottom: -400px;
+  margin-top: -200px;  
+}
+
+.name {
   padding: 100px 0;
-  font: 44px "Arial";
+  font-style: italic;
+  font-size: 44px;
+  text-shadow: #777;
   color: white;
-  text-align: center;
+}
+.letter1B {
+  text-align:left;
+  margin-left:30px;
+  margin-top:-150px;
+}
+.letter2A {
+  text-align:left;
+  margin-left:60px;
+  margin-top:-210px;
+}
+.letter3N {
+
+}
+.letter4K {
+
+}
+.letter5S {
+
+}
+.letter6Y {
+  text-align:right;
+  margin-top:0;
+  margin-bottom:0;
+
 }
 
-section {
+.sumcontent {
+  margin-top:0px;
+  margin-bottom:0;
+}
+
+li {
+  list-style-type:none;
+}
+.country {
+  text-align: left;
+  margin-left:30px;
+  margin-top:-80px;
+  color: gray;
+}
+.country2 {
+  text-align:left;
+  color:white;
+  margin-left:30px;
+}
+.alias {
+  margin-top:-15px;
+}
+.aliases{
+  text-align:right;
+  margin-right:70px;
+  color: gray;
+}
+.aliases2 {
+  text-align:right;
+  margin-right:100px;
+  color:white;
+}
+.aliases3 {
+  text-align:right;
+  margin-right:62px;
+  color:white;
+}
+.colabs {
+  text-align:left;
+  margin-left:30px;
+  margin-top:5px;
+}
+.colaborators{
+  
+}
+
+.section1 {
+  position: relative;
   height: 400px;
-  margin-top: 25vw;
+  margin-top: 23vw;
   background-image: linear-gradient(135deg, #777, #111);
   clip-path: polygon(
     0 10%,
@@ -41,47 +156,6 @@ section {
     100% 100%,
     0 100%);
 }
-
-.name {
-  margin-bottom:-70px;
-  letter-spacing: 10px;
-}
-
-.country {
-  text-align: left;
-  margin-left:30px;
-}
-.aliases{
-  text-align:right;
-  margin-right:30px;
-}
-
-.img1 {
-  width: 99.59%;
-  height: auto;
-  margin-bottom: -350px;
-  margin-top: -200px;
-  
-}
-
-.nav {
-  background-color: black;
-  color: white;
-  border: 1px solid white;
-}
-
-.nav_list li {
-  display: inline-block;
-  list-style-type: none;
-  font-size: 1em;
-  margin: 10px;
-  border: 1px solid white;
-}
-
-.nav_list a {
-  color: white;
-  text-decoration: none;
-  height: 20px;
-  border: 1px solid white;
-  padding: 10px;
-}
+/* #resizeImg1 {
+  background-image: url(https://www.telegraph.co.uk/content/dam/art/2016/06/05/banksy-exit-through-the-gift-shop-CULTURE_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg?imwidth=1400)
+} */
