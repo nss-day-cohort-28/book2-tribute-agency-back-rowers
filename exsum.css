@@ -1,87 +1,177 @@
-* {
-  margin: 0;
-  padding: 0;
+.header2 {
+  position: relative;
+  padding: 100px 0;
+  font-style: italic;
+  font-size: 44px;
+  color: white;
+  margin-top: -350px;
+  margin-bottom: -130px;
 }
-
-body {
-  margin: auto;
-  text-align: center;
-  max-width: 480px;
-  background-color: grey;
+.letter1S {
+  text-align:left;
+  margin-left:30px;
+  margin-top:-40px;
 }
-
-header {
+.letter2U{
+  text-align:left;
+  margin-left:80px;
+  margin-top:-30px;
+}
+.letter3M {
+  text-align:left;
+  margin-left:130px;
+  margin-top:-30px;
+}
+.letter4M {
+  text-align:center;
+  margin-right:40px;
+  margin-top:-30px;
+}
+.letter5A {
+  text-align:center;
+  margin-left:70px;
+  margin-right:;
+  margin-top:-30px;
+}
+.letter6R {
+  text-align:right;
+  margin-right:110px;
+  margin-top:-30px;
+}
+.letter7Y {
+  text-align:right;
+  margin-right:50px;
+  margin-bottom:-120px;
+  margin-top:-20px;
+}
+.header1 {
   position: relative;
   height: 300px;
-  background-image: linear-gradient(black, gray);
+  background-image: linear-gradient(135deg, #777, #111);
+  /* background-image: linear-gradient(black, gray); */
   clip-path: polygon(
     0 0,
     100% 0,
     100% 100%,
     0 calc(100% - 5vw)
   );
-  margin-bottom: -12.5vw;
+  margin-bottom: -13vw;
+}
+/* https://siviaggia.files.wordpress.com/2018/06/rue-victor-cousin.jpg?w=786&strip=all&quality=90 */
+
+.img1 {
+  width:100%;
+  height: auto;
+  margin-bottom: -400px;
+  margin-top: -200px;  
 }
 
-h1 {
-  margin: 0;
+.name {
   padding: 100px 0;
-  font: 44px "Arial";
+  font-style: italic;
+  font-size: 44px;
+  text-shadow: #777;
   color: white;
-  text-align: center;
+}
+.letter1B {
+  text-align:left;
+  margin-left:85px;
+  margin-top:-152px;
+}
+.letter2A {
+  text-align:left;
+  margin-left:135px;
+  margin-top:-244px;
+}
+.letter3N {
+  text-align:center;
+  margin-left:-35px;
+  margin-top:-242px;
+}
+.letter4K {
+  text-align:center;
+  margin-left:75px;
+  margin-top:-242px;
+
+}
+.letter5S {
+  text-align:right;
+  margin-right:115px;
+  margin-top:-242px;
+}
+.letter6Y {
+  text-align:right;
+  margin-right:65px;
+  margin-top:-243px;
+  margin-bottom:-200px
 }
 
-section {
+.sumcontent {
+  margin-top:0px;
+  margin-bottom:0;
+}
+
+.allLists {
+  list-style-type:none;
+}
+.country {
+  text-align: left;
+  margin-left:30px;
+  margin-top:-60px;
+  color: gray;
+  text-shadow: 2px 2px black;
+}
+.country2 {
+  text-align:left;
+  color:white;
+  margin-left:30px;
+  text-shadow: 2px 2px black;
+}
+.alias {
+  margin-top:-15px;
+  text-shadow: 2px 2px black;
+}
+.aliases{
+  text-align:right;
+  margin-right:70px;
+  color: gray;
+}
+.aliases2 {
+  text-align:right;
+  margin-right:100px;
+  color:white;
+}
+.aliases3 {
+  text-align:right;
+  margin-right:62px;
+  color:white;
+}
+.colabs {
+  text-align:left;
+  margin-left:30px;
+  margin-top:5px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.colaborators{
+ color:gray; 
+}
+
+.uCollabs {
+  color:darkgray;
+}
+.nCollabs {
+  color:darkgray;
+}
+
+.section1 {
+  position: relative;
   height: 400px;
-  margin-top: 25vw;
+  margin-top: 23vw;
   background-image: linear-gradient(135deg, #777, #111);
   clip-path: polygon(
     0 10%,
     100% 25%,
     100% 100%,
     0 100%);
-}
-
-.name {
-  margin-bottom:-70px;
-  letter-spacing: 10px;
-}
-
-.country {
-  text-align: left;
-  margin-left:30px;
-}
-.aliases{
-  text-align:right;
-  margin-right:30px;
-}
-
-.img1 {
-  width: 99.59%;
-  height: auto;
-  margin-bottom: -350px;
-  margin-top: -200px;
-  
-}
-
-.nav {
-  background-color: black;
-  color: white;
-  border: 1px solid white;
-}
-
-.nav_list li {
-  display: inline-block;
-  list-style-type: none;
-  font-size: 1em;
-  margin: 10px;
-  border: 1px solid white;
-}
-
-.nav_list a {
-  color: white;
-  text-decoration: none;
-  height: 20px;
-  border: 1px solid white;
-  padding: 10px;
 }
