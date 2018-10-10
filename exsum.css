@@ -30,7 +30,7 @@
 .letter5A {
   text-align:center;
   margin-left:70px;
-  margin-right:;
+  margin-right:0;
   margin-top:-30px;
 }
 .letter6R {
@@ -174,4 +174,13 @@
     100% 25%,
     100% 100%,
     0 100%);
+}
+
+@media (min-width: 1500px) {
+  .img1 {
+    width:120%;
+    height: auto;
+    margin-bottom: -400px;
+    margin-top: -200px;  
+  }
 }
