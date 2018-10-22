@@ -176,11 +176,11 @@
     0 100%);
 }
 
-@media (min-width: 1500px) {
+/* @media (min-width: 1500px) {
   .img1 {
     width:120%;
     height: auto;
     margin-bottom: -400px;
     margin-top: -200px;  
   }
-}
+} */
